@@ -9,7 +9,7 @@ public interface RocketMqConstant {
 
     public static String PLUGIN_NAME = "rocketmq";
 
-    public static String REMOTEING_SUPER_CLASS = "com.alibaba.rocketmq.remoting.netty.NettyRemotingAbstract";
+    public static String REMOTEING_SUPER_CLASS = "org.apache.rocketmq.remoting.netty.NettyRemotingAbstract";
 
     public static String SYNC_INVOKE_METHOD = "invokeSyncImpl";
 

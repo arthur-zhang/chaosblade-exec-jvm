@@ -20,12 +20,12 @@ public class RocketMqEnhancer extends BeforeEnhancer implements RocketMqConstant
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RocketMqEnhancer.class);
     public static String CLASS_PULL_MESSAGE_REQUEST_HEADER
-        = "com.alibaba.rocketmq.common.protocol.header.PullMessageRequestHeader";
+        = "org.apache.rocketmq.common.protocol.header.PullMessageRequestHeader";
     public static String CLASS_SEND_MESSAGE_REQUEST_HEADER
-        = "com.alibaba.rocketmq.common.protocol.header.SendMessageRequestHeader";
+        = "org.apache.rocketmq.common.protocol.header.SendMessageRequestHeader";
     public static String CLASS_SEND_MESSAGE_REQUEST_HEADERV2
-        = "com.alibaba.rocketmq.common.protocol.header.SendMessageRequestHeaderV2";
-    public static String CLASS_REMOTEING_COMMAND_CLASS = "com.alibaba.rocketmq.remoting.protocol.RemotingCommand";
+        = "org.apache.rocketmq.common.protocol.header.SendMessageRequestHeaderV2";
+    public static String CLASS_REMOTEING_COMMAND_CLASS = "org.apache.rocketmq.remoting.protocol.RemotingCommand";
     private static String FIELD_CUSTOM_HEADER = "customHeader";
 
     @Override
